@@ -2,6 +2,7 @@ import reverse from 'buffer-reverse'
 import SHA256 from 'crypto-js/sha256'
 import Base from './Base'
 import treeify from 'treeify'
+import {Buffer} from 'buffer'
 
 type TValue = Buffer | string | number | null | undefined
 type THashFnResult = Buffer | string
