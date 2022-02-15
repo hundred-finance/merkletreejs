@@ -1,5 +1,5 @@
 import CryptoJS from 'crypto-js'
-import {Buffer} from 'buffer'
+import { Buffer } from 'buffer'
 
 export class Base {
   /**
