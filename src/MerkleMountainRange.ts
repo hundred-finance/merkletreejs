@@ -1,5 +1,6 @@
 import Base from './Base'
 import SHA256 from 'crypto-js/sha256'
+import {Buffer} from 'buffer'
 
 // @credit: https://github.com/wanseob/solidity-mmr
 /**
